@@ -3,9 +3,9 @@ body {
   font-size: 18px;
   line-height: 34px;
   height:100vh;
-  color: #48484885;
-  background: url("../images/botanical-cactus-close-up-305821.jpg");
-  background-size: 100% auto;
+  color: #546068;
+  background: url("../images/rawpixel-557126-unsplash.jpg");
+  background-size: 100% 100%;
 }
 
  .photo {
@@ -16,31 +16,62 @@ body {
 
  .about {
     overflow: auto;
-    float:left;
-    width: 600px;
+    clear: left;
+    width: 640px;
     border: 10px;
-    padding: 0px 0px 48px 34px;
-    margin-top: 0px;
+    background-color: white;
+    padding: 10px 0px 48px 0px;
+    margin-top: 45px;
     margin-bottom: 102px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     border-radius: 4px;
     line-height: 25px;
 
   }
    
+.password {
+  clear: left;
+  background-color: #5a8998; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 280px 10px 10px 516px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
 .portfolio {
     overflow: auto;
+    clear: left;
+    width: 640px;
+    border: 10px;
+    background-color: white;
+    padding: 10px 0px 48px 0px;
+    margin-top: 45px;
+    margin-bottom: 102px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 4px;
+    line-height: 25px;
+
+   /* overflow: auto;
     float:left;
     width: 600px;
     border: 10px;
+    background-color: white;
     padding: 0px 0px 12px 34px;
     margin-top: 0px;
     margin-bottom: 55px;
     margin-right: 20px;
     display: block;
     border-radius: 4px;
-    line-height: 25px;
+    line-height: 25px;*/
+
   /* overflow: auto;
     background-color: white;
     width: 960px;
@@ -56,17 +87,20 @@ body {
 }
 
 .contact {
-  overflow: auto;
+    overflow: auto;
     float:left;
-    width: 600px;
+    width: 425px;
     border: 10px;
-    padding: 0px 0px 12px 34px;
+    background-color: white;
+    padding: 0px 0px 12px 29px;
     margin-top: 0px;
-    margin-bottom: 55px;
-    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 61px;
+    margin-right: 0px;
     display: block;
     border-radius: 4px;
     line-height: 25px;
+
   /*overflow: auto;
     background-color: white;
     width: 960px;
@@ -81,12 +115,34 @@ body {
     line-height: 25px;*/
 }
 
-.column {
+.connect {
+    overflow: auto;
+    float: right;
+    width: 390px;
+    border: 10px;
+    background-color: white;
+    padding: 0px 20px 12px 34px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 61px;
+    margin-right: 80px;
+    display: block;
+    border-radius: 4px;
+    line-height: 25px;
+  }
+
+.images{
   float: left;
-  width: 27%;
-  padding: 25px;
-  margin-left: 55px;
-  margin-right: -25px;
+  display:block ;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.column {
+  width: 30%;
+  padding: 20px;
+  margin-left: 199px;
 }
 
 .row::after {
@@ -111,13 +167,23 @@ body {
 
 .heading {
     border-bottom: 2px solid #48484885;
-    width: 920px;
+    width: 430px;
     padding: 10px 10px; 
     margin-left: 20px;
     box-sizing: border-box;
     padding-left: 10px;
-    color: #48484885;
+    color: #546068;
   }
+
+.headingC {
+    border-bottom: 2px solid #48484885;
+    width: 375px;
+    padding: 10px 10px; 
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: #546068;
+}
 
 .form {
   padding: 5px 55px 10px 20px;
@@ -138,7 +204,7 @@ body {
 }
 
 .submit {
-  background-color: #378f3f; 
+  background-color: #5a8998; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -173,12 +239,12 @@ h1 {
 }
 .header {
   overflow: hidden;
-  padding: 20px 100px 15px 60px;
+  padding: 24px 95px 5px 65px;
   display: block;
   margin-top: -8px;
+  margin-bottom: 10px;
   margin-left: -6px;
   margin-right: -6px;
-  background-color: #e8e7e3;
 }
 
 
@@ -191,7 +257,7 @@ h1 {
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
-  background-color: #48484885;
+  background-color: #546068;
   color: white;
   margin:5px;
   font-family: 'Fjalla One', sans-serif;
@@ -212,9 +278,9 @@ h1 {
   font-family:'Fjalla One', sans-serif;
   font-size: 44px;
   line-height: 75px;
-  background-color: #e8e7e3;
+  background-color: none;
   width: 448px;
-  color:#48484885;
+  color: #546068;
   border-radius: 4px;
   }
 .column {
